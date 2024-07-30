@@ -1,0 +1,215 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url('images/source.gif') no-repeat center center fixed ;
+  background-size: cover;
+}
+
+.backgorund-container {
+  width: 100%;
+  height: 100vh;
+  background: url('images/bgPic.gif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  margin: 500px 0 100px 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  border-radius: 10px;
+  height: 80px;
+  width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container .searchInput {
+  display: flex;
+  justify-content: center;
+  max-height: 50px;
+}
+
+.container .searchInput input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid;
+  border-radius: 5px 0 0 5px;
+  width: 800px;
+}
+
+.container .searchInput button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.container .searchInput button:hover {
+  background-color: #555;
+}
+
+.searchContainer {
+  width: 70%;
+  margin-left: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mainContainer {
+  width: 25rem;
+  height: auto;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.searchInput {
+  width: 100%;
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.searchInput input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+  font-size: 1rem;
+  color: #525050;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #b3b3b3;
+}
+
+.searchInput input:focus {
+  border: 1px solid #9c9dde;
+}
+
+.searchInput button {
+  width: 2.2rem;
+  height: 2rem;
+  cursor: pointer;
+  color: #9b9b9b;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+}
+
+.searchInput button:hover {
+  color: #fff;
+  background-color: #9c9dde;
+  border: 1px solid #9c9dde;
+}
+
+.weatherDetailsContainer {
+  position: relative;
+  display: flex; /* Changed to flex for side-by-side layout */
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  color: white;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.weatherIcon {
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+
+.weatherIcon img {
+  width: 100%;
+  max-width: 100px; /* Added to limit the icon size */
+
+}
+
+
+.cityDetails {
+  color:white;
+  font-size: 1.5rem;
+  margin-top:10px;
+  margin-left:10px;
+  margin-bottom: 0.5rem;
+  flex: 1; /* Added to take up remaining space */
+}
+
+.dateTime{
+	text-align:center;
+  color:white;
+  font-size: 1.5rem;
+  margin-left:50px;
+  margin-right:100px;
+  margin-bottom: 0.5rem;
+}
+
+
+.airConditions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.airConditions > div {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.airConditions img {
+    max-height: 3rem;
+    margin-bottom: 10px;
+}
+
+.feelsLikeTemp .realTemperature,
+.windDetails .wind,
+.visibility .visi,
+.humidityBox .humidity {
+    font-size: 1rem;
+    color: #323232;
+}
+
+.feelsLikeTemp .realTemperature h2,
+.windDetails .wind h2,
+.visibility .visi h2,
+.humidityBox .humidity h2 {
+    font-size: 2rem;
+    color: #323232;
+}
+
+.feelsLikeTemp .realTemperature span,
+.windDetails .wind span,
+.visibility .visi span,
+.humidityBox .humidity span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #525050;
+}
+
