@@ -7,7 +7,7 @@ This Weather Application is a web-based tool developed using HTML, CSS, JavaScri
 * **User-Friendly Interface:** Simple and intuitive interface designed with HTML, CSS, and JavaScript.
 * **Server-Side Processing:** Uses JSP and Servlets to handle API calls and data processing.
 
-**Demo Images**
+#Demo Images
 
 ### Home Page
 
