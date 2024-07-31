@@ -13,7 +13,7 @@ This Weather Application is a web-based tool developed using HTML, CSS, JavaScri
 
 ![home-page](https://github.com/user-attachments/assets/197c0524-79a3-412b-a396-9666b53af8a2)
 
-* Enter a city name to get weather information.*
+Enter a city name to get weather information.*
 
 ![EnterCity](https://github.com/user-attachments/assets/fd363851-274a-4294-bb43-0d4586060200)
 
