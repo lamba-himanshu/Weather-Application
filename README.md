@@ -29,6 +29,12 @@ This Weather Application is a web-based tool developed using HTML, CSS, JavaScri
 
 ![anotherExample](https://github.com/user-attachments/assets/edddc412-1719-4959-ab2f-967318531afa)
 
+###Technologies Used
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Java, Servlets, JSP
+* **Server:** Apache Tomcat
+* **API:** OpenWeather API
 
-
+###Acknowledgements
+* OpenWeather for providing the weather API.
 
