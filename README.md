@@ -13,13 +13,13 @@ This Weather Application is a web-based tool developed using HTML, CSS, JavaScri
 
 ![home-page](https://github.com/user-attachments/assets/197c0524-79a3-412b-a396-9666b53af8a2)
 
-*Enter a city name to get weather information.*
+* Enter a city name to get weather information.*
 
 ![EnterCity](https://github.com/user-attachments/assets/fd363851-274a-4294-bb43-0d4586060200)
 
 ### Weather Result - 1
 
-*Displays weather details such as temperature, wind speed, visibility, and humidity.
+*Displays weather details such as temperature, wind speed, visibility, and humidity.*
 
 ![weatherDetails](https://github.com/user-attachments/assets/a2c55fe0-d9e7-4317-b814-65660be25936)
 
@@ -29,12 +29,12 @@ This Weather Application is a web-based tool developed using HTML, CSS, JavaScri
 
 ![anotherExample](https://github.com/user-attachments/assets/edddc412-1719-4959-ab2f-967318531afa)
 
-###Technologies Used
+### Technologies Used
 * **Frontend:** HTML, CSS, JavaScript
 * **Backend:** Java, Servlets, JSP
 * **Server:** Apache Tomcat
 * **API:** OpenWeather API
 
-###Acknowledgements
+### Acknowledgements
 * OpenWeather for providing the weather API.
 
